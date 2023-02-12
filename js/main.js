@@ -1,4 +1,3 @@
-const tazaCambio = document.getElementById('taza-cambio');
 const valorPesos = document.getElementById('cant-pesos');
 const valorBolibares = document.getElementById('cant-bolibares');
 const btnCalcular = document.getElementById('btn-calcular');
