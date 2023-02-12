@@ -72,9 +72,11 @@ body{
     background-size: cover;
     padding: 50px
 }
-.contact h2, h4{
+h2, h4{
+    margin-top: 20px;
     color: #e6e8eb;
     font-family: 'Righteous', cursive;
+    text-align: center;
 }
 hr{
     border: 3px solid #e6e8eb73;
