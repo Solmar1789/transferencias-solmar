@@ -1,0 +1,111 @@
+body{
+    background-image: url("../images/bg-taza-cambio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+.navbar{
+    padding: .5rem;
+    background-color: #3C79F5;
+}
+.navbar a{
+    color: #F6E6C2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #000;
+}
+.conversion{
+    border: 2px solid #0e2a638c;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #e6e8eb;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0e2a632c;
+}
+.conversion label{
+    color: #f0f8ff;
+}
+.services {
+    margin-top: 20px;
+    text-align: center;
+    color: #e6e8eb;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.servicios{
+    margin-top: 0;
+    background-image: url("../images/bg-servicios.png");
+    padding: 20px;
+}
+.card{
+    margin: 5px;
+    transition: all 0.5s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(.9);
+}
+
+.card-body{
+    background-image: url("/images/bg-servicios.png");
+}
+.contact{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px
+}
+.contact h2, h4{
+    color: #e6e8eb;
+    font-family: 'Righteous', cursive;
+}
+hr{
+    border: 3px solid #e6e8eb73;
+}
+.contact img{
+    transition: all 0.5s;
+}
+.contact img:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+
+.about-us{
+    background-image: url("../images/bg-servicios.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #230049;
+}
+.about-us p{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #23004980;
+    color: #e6e8eb;
+    height: 45px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
