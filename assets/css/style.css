@@ -58,9 +58,12 @@ body{
     cursor: pointer;
     transform: scale(.9);
 }
-
+.card-title{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
 .card-body{
-    background-image: url("/images/bg-servicios.png");
+    background-image: url("../images/bg-servicios.png");
 }
 .contact{
     text-align: center;
@@ -84,15 +87,22 @@ hr{
 }
 
 .about-us{
-    background-image: url("../images/bg-servicios.png");
+    /*background-image: url("../images/bg-servicios.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     padding: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #230049;
+    color: #ffffff;
+    background-color: #0f54ddc7;
 }
 .about-us p{
     font-size: 20px;
+}
+
+.medios-de-pago{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .footer{
     text-align: center;
